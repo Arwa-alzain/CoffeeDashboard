@@ -1,7 +1,7 @@
 import SideBar from "../components/sideBar/SideBar";
 import { useState } from "react";
 import Header from "../components/header/Header";
-import MainContent from "../components/mainContent/mainContent";
+import MainContent from "../components/mainContent/MainContent";
 import { useNavigate } from "react-router-dom";
 
 function DashboardLayouts({ setIsLoggedIn }) {
