@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+
 function Login({ setIsLoggedIn }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -10,7 +11,7 @@ function Login({ setIsLoggedIn }) {
     e.preventDefault();
 
     // Simple validation
-    if (email === "admin@admin.com" && password === "123456") {
+    if (email === "admin@coffee.com" && password === "12345") {
       setIsLoggedIn(true);
       navigate("/dashboard");
     } else {
