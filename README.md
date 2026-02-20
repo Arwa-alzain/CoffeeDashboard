@@ -56,19 +56,6 @@ The application uses a modular architecture with a **Protected Routing** system,
 
 ---
 
-## 📂 Project Structure
-
-```text
-src/
-├── components/        # Reusable UI (Sidebar, Header, Modals, StateCards)
-├── layout/            # DashboardLayouts for structural management
-├── pages/             # Main views (Login, ProductPage, OrderPage)
-├── API/               # WeatherApi component logic
-└── data/              # Initial mock data for orders and products
- ```
-
----
-
 ## 👩‍💻 Author
 
 **Arwa Alzain**
